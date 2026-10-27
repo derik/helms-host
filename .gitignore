@@ -1,0 +1,24 @@
+# Local settings and credentials; keep the example.
+.env
+.env.*
+!.env.example
+.run.env
+
+# Runtime storage and model downloads.
+models/
+data/
+cache/
+.home/
+*.gguf
+*.safetensors
+*.onnx
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.part
+*.log
+
+# Python test output.
+__pycache__/
+*.py[cod]
